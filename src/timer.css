@@ -1,0 +1,52 @@
+
+  .timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .birthday-header h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+    color: white;
+    font-style: italic;
+  }
+  
+  .timer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.5);
+  }
+
+h2 {
+  margin: 10px 0;
+}
+
+.time {
+  color: #ffcc00;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.unlock-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.unlock-button:hover {
+  background-color: #e6b800;
+}
+  
+

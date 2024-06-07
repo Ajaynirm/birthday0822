@@ -1,38 +1,80 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+}
+
+header {
   text-align: center;
+  padding: 50px;
+  background: linear-gradient(90deg, #ffafbd, #ffc3a0);
+  color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.content-section {
+  padding: 50px;
+  text-align: center;
+  background: #1e1e1e;
+  color: #e0e0e0;
+  margin: 20px 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1); /* Light overlay */
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #ffafbd, #ffc3a0);
+  color: #ffffff;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Fireworks Canvas */
+#fireworksCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   pointer-events: none;
+  z-index: 1000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Responsive image */
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p, h2 {
+  margin: 0;
+  font-size: 1.2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
