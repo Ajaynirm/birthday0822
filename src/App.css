@@ -17,8 +17,8 @@ header {
   color: #ffffff;
 }
 
-header h1 {
-  font-size: 3rem;
+header, h1 {
+  font-size: 2rem;
   margin: 0;
   color: #ffdf00; /* Bright yellow */
 }
@@ -82,9 +82,15 @@ footer p {
 
 p, h2 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #2d90e2; 
-  font-style: italic;
+  font-style:normal;
+}
+h6{
+  font-size: 0.8rem;
+}
+.message{
+  font-weight: bold;
 }
 
 /* Fireworks Canvas */

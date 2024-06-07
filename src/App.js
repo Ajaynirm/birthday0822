@@ -110,7 +110,7 @@ function App() {
 
       <section className="content-section">
         <div className="content">
-          <p>WISHING YOU A VERY  HAPPY BIRTHDAY JEEVANA💐💐💐 ... 
+          <p className='message'>WISHING YOU A VERY  HAPPY BIRTHDAY JEEVANA💐💐💐 ... 
 YOU ARE SUCH A HUMBLE, CUTE,  AND HONEST PERSON IN THE WORLD...🤩🤩🤩<br></br>
 BUT PARTIALLY  INSANE 🤣🤣🤣.
 WE WILL BE WEIRD , CRAZY AND STUPID FOREVER....😜😜😜</p>
