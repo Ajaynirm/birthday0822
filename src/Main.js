@@ -9,7 +9,7 @@ const Main = () => {
       const [timeExceeded, setTimeExceeded] = useState(false);
 
       // Set target time to June 7th at 23:00
-      const targetTime = new Date(new Date().getFullYear(), 5, 7, 20, 3, 59);
+      const targetTime = new Date(new Date().getFullYear(), 5, 7, 23, 59, 59);
     
       useEffect(() => {
         const checkTime = setInterval(() => {
