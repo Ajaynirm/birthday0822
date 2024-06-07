@@ -1,11 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
 body, html {
   margin: 0;
   padding: 0;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family:;
   background: #1e1e1e;
   color: #e0e0e0;
 }
@@ -20,7 +19,7 @@ header {
 header, h1 {
   font-size: 2rem;
   margin: 0;
-  color: #ffdf00; /* Bright yellow */
+  color: #d1cbc8; /* Bright yellow */
 }
 
 .content-section {
