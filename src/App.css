@@ -2,31 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
-
 body, html {
   margin: 0;
   padding: 0;
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  background: #121212;
+  background: #1e1e1e;
   color: #e0e0e0;
 }
 
 header {
   text-align: center;
   padding: 50px;
-  background: linear-gradient(90deg, #ffafbd, #ffc3a0);
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4); /* Bright and festive gradient */
   color: #ffffff;
 }
 
 header h1 {
   font-size: 3rem;
   margin: 0;
+  color: #ffdf00; /* Bright yellow */
 }
 
 .content-section {
   padding: 50px;
   text-align: center;
-  background: #1e1e1e;
+  background: #000; /* Festive red-orange */
   color: #e0e0e0;
   margin: 20px 0;
 }
@@ -36,22 +36,55 @@ header h1 {
   z-index: 1;
   text-align: center;
   padding: 50px;
-  background: rgba(255, 255, 255, 0.1); /* Light overlay */
+  background: rgba(255, 255, 255, 0.2); /* Light overlay */
   margin: 20px auto;
   border-radius: 10px;
   max-width: 800px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+.wish-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background: linear-gradient(90deg, #3989b4, #896b62); /* Matching button gradient */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/*.wish-button:hover {
+  background: linear-gradient(90deg, #fad0c4, #ff9a9e);
+}
+*/
 
 footer {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(90deg, #ffafbd, #ffc3a0);
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4); /* Same gradient for consistency */
   color: #ffffff;
 }
 
 footer p {
   margin: 0;
+  font-size: 1.2rem;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+p, h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #2d90e2; 
+  font-style: italic;
 }
 
 /* Fireworks Canvas */
@@ -64,17 +97,6 @@ footer p {
   pointer-events: none;
   z-index: 1000;
 }
-
-/* Responsive image */
-.responsive-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+.song{
+  display: none;
 }
-
-p, h2 {
-  margin: 0;
-  font-size: 1.2rem;
-}
-
