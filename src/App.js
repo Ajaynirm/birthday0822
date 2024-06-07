@@ -133,7 +133,7 @@ WE WILL BE WEIRD , CRAZY AND STUPID FOREVER....😜😜😜</p>
         <div className="content">
           <h1>Many More Happy Returns Of The Day Muttagose</h1>
           <img src="./img/coup.jpg" alt="Celebrate" className="responsive-img" />
-          <h1>Yeppothum Happy ah Irunka 🖤✌️</h1>
+          <h3>Yeppothum Happy ah Irunka 🖤✌️</h3>
        
         </div>
       </section>
