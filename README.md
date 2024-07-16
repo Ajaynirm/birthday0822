@@ -1,3 +1,7 @@
+# Project Description:
+The Timed Content Switcher is a React-based application designed to display different components based on a specified target time. This project demonstrates the use of React hooks, including useState and useEffect, to manage state and side effects in a functional component. It features a timer that counts down to a target date and time, after which it conditionally renders a different component.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
