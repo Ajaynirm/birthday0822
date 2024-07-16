@@ -96,12 +96,12 @@ function App() {
       <section className="content-section">
         <div className="content">
           <h1>welcome to virtual party</h1>
-          <h2>Happy Birthday <br />Jeev</h2>
+          <h2>Happy Birthday <br />Name</h2>
           <img src={imageSrc} alt="Celebrate" className="responsive-img" />
           <audio class="song" controls loop >
         <source src="./img/music.mp3">
         </source>
-        Your browser isn't invited for super fun audio time.
+        
     </audio>
           <button className="wish-button" onClick={handleButtonClick}>{buttonText}</button>
           <h6>scroll for more</h6>
@@ -110,30 +110,27 @@ function App() {
 
       <section className="content-section">
         <div className="content">
-          <p className='message'>WISHING YOU A VERY  HAPPY BIRTHDAY JEEVANA💐💐💐 ... 
-YOU ARE SUCH A HUMBLE, CUTE,  AND HONEST PERSON IN THE WORLD...🤩🤩🤩<br></br>
-BUT PARTIALLY  INSANE 🤣🤣🤣.
-WE WILL BE WEIRD , CRAZY AND STUPID FOREVER....😜😜😜</p>
+          <p>some messages</p>
         </div>
       </section>
         <section className="content-section">
         <div className="content">
-          <h1>SCAN PANNUGO</h1>
+          <h1>SCAN Me</h1>
           <img src="./img/qr1.png" alt="Celebrate" className="responsive-img" />
         </div>
       </section>
       <section className="content-section">
         <div className="content">
-          <h1>YOU ARE THE MOON</h1>
+          <h1>some messages</h1>
           <img src="./img/moon.jpeg" alt="Celebrate" className="responsive-img" />
-          <h1>I Don't Know Why 🤣🤣🤣</h1>
+          <h1>some messages</h1>
         </div>
       </section>
       <section className="content-section">
         <div className="content">
-          <h1>Many More Happy Returns Of The Day Muttagose</h1>
+          <h1>some messages</h1>
           <img src="./img/coup.jpg" alt="Celebrate" className="responsive-img" />
-          <h3>Yeppothum Happy ah Irunka 🖤✌️</h3>
+          <h3>some messages</h3>
        
         </div>
       </section>
